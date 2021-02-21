@@ -1,0 +1,107 @@
+/* Layout Import */
+
+@import "./layout.css";
+
+/* Basic global styling and variables */
+
+:root {
+  --white-green: #ebffeb;
+  --dark-pink: #e359a0;
+  --c1: #c189f0;
+  --c2: #fc8b74;
+  --c3: #85e371;
+  --c4: #53b041;
+  --c5: #f590c4;
+}
+
+html {
+  font-family: cursive, sans-serif;
+}
+
+body {
+  background-color: var(--white-green);
+}
+
+/* Navbar */
+
+nav {
+  background-color: var(--c5);
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: var(--dark-pink);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--c1);
+}
+
+footer > div ul li,
+footer > div ul li * {
+  color: white;
+}
+
+footer > span {
+  color: white;
+}
+
+/* Anchors */
+
+a {
+  color: var(--c5);
+}
+
+/* Background Color Classes */
+
+.c1 {
+  background-color: var(--c1);
+}
+
+.c2 {
+  background-color: var(--c2);
+}
+
+.c3 {
+  background-color: var(--c3);
+}
+
+.c4 {
+  background-color: var(--c4);
+}
+
+.c5 {
+  background-color: var(--c5);
+}
+
+/* Text Color Classes */
+
+.c1-text {
+  color: var(--c1);
+}
+
+.c2-text {
+  color: var(--c2);
+}
+
+.c3-text {
+  color: var(--c3);
+}
+
+.c4-text {
+  color: var(--c4);
+}
+
+.c5-text {
+  color: var(--c5);
+}

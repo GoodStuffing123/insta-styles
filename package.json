@@ -1,0 +1,23 @@
+{
+  "name": "insta-style",
+  "version": "1.0.0",
+  "description": "This gives your web page good looking styles without all the hard work that goes into it.",
+  "main": "default.css",
+  "author": "GoodStuffing123",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "styles",
+    "insta",
+    "style",
+    "styling",
+    "theme",
+    "themes",
+    "beautiful",
+    "work",
+    "import"
+  ]
+}

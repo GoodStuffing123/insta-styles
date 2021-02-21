@@ -1,0 +1,103 @@
+/* Imports */
+
+@import "https://fonts.googleapis.com/css?family=Delius Swash Caps";
+@import "./layout.css";
+
+/* Basic global styling and variables */
+
+:root {
+  --dark-blue: #47b5d1;
+  --c1: #95b4c7;
+  --c2: #7489fc;
+  --c3: #36c239;
+  --c4: #e33d3d;
+  --c5: #80d0ff;
+}
+
+html {
+  font-family: "Delius Swash Caps", cursive, sans-serif;
+}
+
+/* Navbar */
+
+nav {
+  background-color: var(--c5);
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  transition: background-color 0.4s;
+}
+
+nav ul li a:hover {
+  background-color: var(--dark-blue);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--c1);
+}
+
+footer > div ul li,
+footer > div ul li * {
+  color: white;
+}
+
+footer > span {
+  color: white;
+}
+
+/* Anchors */
+
+a {
+  color: var(--c4);
+}
+
+/* Background Color Classes */
+
+.c1 {
+  background-color: var(--c1);
+}
+
+.c2 {
+  background-color: var(--c2);
+}
+
+.c3 {
+  background-color: var(--c3);
+}
+
+.c4 {
+  background-color: var(--c4);
+}
+
+.c5 {
+  background-color: var(--c5);
+}
+
+/* Text Color Classes */
+
+.c1-text {
+  color: var(--c1);
+}
+
+.c2-text {
+  color: var(--c2);
+}
+
+.c3-text {
+  color: var(--c3);
+}
+
+.c4-text {
+  color: var(--c4);
+}
+
+.c5-text {
+  color: var(--c5);
+}

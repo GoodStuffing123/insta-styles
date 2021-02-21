@@ -1,0 +1,108 @@
+/* Imports */
+
+@import "https://fonts.googleapis.com/css?family=Sofia";
+@import "./layout.css";
+
+/* Basic global styling and variables */
+
+:root {
+  --white-orange: #fff0de;
+  --deep-orange: #cc4d2d;
+  --c1: #faaf4d;
+  --c2: #a16947;
+  --c3: #ab9c29;
+  --c4: #ed5c5c;
+  --c5: #e6824c;
+}
+
+html {
+  font-family: "Sofia", cursive, sans-serif;
+}
+
+body {
+  background-color: var(--white-orange);
+}
+
+/* Navbar */
+
+nav {
+  background-color: var(--c5);
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  transition: background-color 0.15s;
+}
+
+nav ul li a:hover {
+  background-color: var(--deep-orange);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--c1);
+}
+
+footer > div ul li,
+footer > div ul li * {
+  color: white;
+}
+
+footer > span {
+  color: white;
+}
+
+/* Anchors */
+
+a {
+  color: var(--c5);
+}
+
+/* Background Color Classes */
+
+.c1 {
+  background-color: var(--c1);
+}
+
+.c2 {
+  background-color: var(--c2);
+}
+
+.c3 {
+  background-color: var(--c3);
+}
+
+.c4 {
+  background-color: var(--c4);
+}
+
+.c5 {
+  background-color: var(--c5);
+}
+
+/* Text Color Classes */
+
+.c1-text {
+  color: var(--c1);
+}
+
+.c2-text {
+  color: var(--c2);
+}
+
+.c3-text {
+  color: var(--c3);
+}
+
+.c4-text {
+  color: var(--c4);
+}
+
+.c5-text {
+  color: var(--c5);
+}

@@ -1,0 +1,97 @@
+/* Layout Import */
+
+@import "./layout.css";
+
+/* Basic global styling and variables */
+
+:root {
+  --white-blue: #def4ff;
+  --dark-blue: #115abf;
+  --c1: #68cdfc;
+  --c2: #36bec9;
+  --c3: #5d8dc2;
+  --c4: #557eed;
+  --c5: #2d94ed;
+}
+
+body {
+  background-color: var(--white-blue);
+}
+
+/* Navbar */
+
+nav {
+  background-color: var(--c5);
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  transition: background-color 0.2s;
+}
+
+nav ul li a:hover {
+  background-color: var(--dark-blue);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--c1);
+}
+
+footer > div ul li,
+footer > div ul li * {
+  color: white;
+}
+
+footer > span {
+  color: white;
+}
+
+/* Background Color Classes */
+
+.c1 {
+  background-color: var(--c1);
+}
+
+.c2 {
+  background-color: var(--c2);
+}
+
+.c3 {
+  background-color: var(--c3);
+}
+
+.c4 {
+  background-color: var(--c4);
+}
+
+.c5 {
+  background-color: var(--c5);
+}
+
+/* Text Color Classes */
+
+.c1-text {
+  color: var(--c1);
+}
+
+.c2-text {
+  color: var(--c2);
+}
+
+.c3-text {
+  color: var(--c3);
+}
+
+.c4-text {
+  color: var(--c4);
+}
+
+.c5-text {
+  color: var(--c5);
+}

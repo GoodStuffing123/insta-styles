@@ -1,0 +1,107 @@
+/* Layout Import */
+
+@import "./layout.css";
+
+/* Basic global styling and variables */
+
+:root {
+  --white-yellow: #ffffe3;
+  --dark-green: #3d8226;
+  --c1: #23bae8;
+  --c2: #ebe015;
+  --c3: #ed8282;
+  --c4: #6fab72;
+  --c5: #4d9e31;
+}
+
+html {
+  font-family: Garamond, serif;
+}
+
+body {
+  background-color: var(--white-yellow);
+}
+
+/* Navbar */
+
+nav {
+  background-color: var(--c5);
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: var(--dark-green);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--c1);
+}
+
+footer > div ul li,
+footer > div ul li * {
+  color: white;
+}
+
+footer > span {
+  color: white;
+}
+
+/* Anchors */
+
+a {
+  color: var(--c5);
+}
+
+/* Background Color Classes */
+
+.c1 {
+  background-color: var(--c1);
+}
+
+.c2 {
+  background-color: var(--c2);
+}
+
+.c3 {
+  background-color: var(--c3);
+}
+
+.c4 {
+  background-color: var(--c4);
+}
+
+.c5 {
+  background-color: var(--c5);
+}
+
+/* Text Color Classes */
+
+.c1-text {
+  color: var(--c1);
+}
+
+.c2-text {
+  color: var(--c2);
+}
+
+.c3-text {
+  color: var(--c3);
+}
+
+.c4-text {
+  color: var(--c4);
+}
+
+.c5-text {
+  color: var(--c5);
+}
