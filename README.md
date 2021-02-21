@@ -4,10 +4,6 @@ With npm
 
 > npm install insta-style
 
-With yarn
-
-> yarn add insta-style
-
 ### To Directly Import from Github Use a Link Like This
 
 `https://raw.githack.com/GoodStuffing123/insta-styles/master/default.css`
